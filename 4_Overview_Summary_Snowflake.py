@@ -96,12 +96,12 @@ def main():
 def export_to_snowflake(client_name, selected_solution, high_importance_oc, moderate_importance_oc, low_importance_oc, high_importance_md, moderate_importance_md, low_importance_md, high_importance_mdp, moderate_importance_mdp, low_importance_mdp, user_inputs):
     # Connect to Snowflake
     conn = snowflake.connector.connect(
-        user='PIETERRETIEF',
-        password='Snow4261!',
-        account='NC34438',
-        warehouse='COMPLUTE_WH',
-        database='STREAMLIT_APPS',
-        schema='PUBLIC'
+        user='',
+        password='!',
+        account='',
+        warehouse='',
+        database='',
+        schema=''
     )
 
     # Prepare data for insertion
